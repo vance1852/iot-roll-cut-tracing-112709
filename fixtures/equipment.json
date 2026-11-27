@@ -1,0 +1,53 @@
+{
+  "peers": [
+    "unwinder",
+    "inspection",
+    "cutter",
+    "pallet",
+    "orderdesk"
+  ],
+  "rolls": [
+    {
+      "id": "R41",
+      "width_mm": 660
+    },
+    {
+      "id": "R42",
+      "width_mm": 660
+    },
+    {
+      "id": "R43",
+      "width_mm": 640
+    }
+  ],
+  "meters": [
+    "inspection",
+    "cutter"
+  ],
+  "orders": [
+    {
+      "id": "OR-1",
+      "length_mm": 950,
+      "width_mm": 600,
+      "rolls": [
+        "R41",
+        "R42"
+      ],
+      "edge_trim_mm": 20,
+      "defect_clearance_mm": 32,
+      "allow_splice": false
+    },
+    {
+      "id": "OR-2",
+      "length_mm": 700,
+      "width_mm": 570,
+      "rolls": [
+        "R42",
+        "R43"
+      ],
+      "edge_trim_mm": 15,
+      "defect_clearance_mm": 20,
+      "allow_splice": false
+    }
+  ]
+}
